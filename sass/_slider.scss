@@ -1,0 +1,267 @@
+/*** Hero Section ***/ 
+.c-hero-slick__slide {
+    display: block;
+    .c-hero-img,
+    .c-hero-overlay {
+        height: 859px;
+    }
+    .c-hero-overlay {
+        position: absolute;
+        top: 0;
+        background: rgba(28, 27, 33, 0.7);
+        background-blend-mode: multiply;
+    }
+    .c-hero-slick__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.c-hero-slick__text-box {
+    top: 13.5rem;
+    width: 486px;   
+    @media(max-width: 1190px) {
+        width: 400px;
+    }
+    h1 {
+        margin-bottom: 20px;
+    } 
+    p {
+        font-size: 1.0625rem;
+        margin-bottom: 30px;
+    }  
+    svg {
+        margin-right: 10px;
+    }  
+} 
+
+.c-hero-slick__img-box {
+    top: -10rem;
+    left: 50rem;
+    width: 759px;
+    height: 570px;
+    background-color: var(--color-white);
+    @media(max-width: 1650px) {
+        left: 39rem;
+    }
+    @media(max-width: 1440px) {
+        left: 41rem;
+        width: 659px;
+    }
+    @media(max-width: 1350px) {
+        width: 600px;
+    }
+    @media(max-width: 1300px) {
+        left: 39rem;
+        width: 580px;
+    }
+    @media(max-width: 1250px) {
+        left: 37rem;
+        width: 550px;
+    }
+    @media(max-width: 1190px) {
+        left: 34rem;
+        width: 520px;
+    }
+    @media(max-width: 1115px) {
+        left: 33rem;
+        width: 500px;
+    }
+    @media(max-width: 1115px) {
+        width: 460px;
+    }
+    .hero-slick-logo {
+        position: absolute;
+        right: 0;
+        width: 570px;
+        height: 167px;
+    }
+    .hero-slick-window {
+        position: absolute;
+        top: 5rem;
+        right: 23rem;
+        @media(max-width: 1350px) {
+            width: 70%;
+            right: 21rem;
+        }
+        @media(max-width: 1250px) {
+            width: 60%;
+        }
+    }
+    .c-hero-slick__img-text {
+        position: absolute;
+        top: 17rem;
+        right: 2.5rem;
+        max-width: 327px;
+        @media(max-width: 1350px) {
+            right: 4.5rem;
+        }
+        h3 {
+            font-size: 1.375rem;
+            &:first-of-type {
+                margin-bottom: 10px;
+            }
+        }
+        p {
+            font-size: 1.0625rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.c-slick-slider__arrow {
+    position: absolute;
+    top: 18.2rem;
+    left: 0;
+    .prevArrow {
+        margin-right: 10px;
+    }
+}
+
+.c-hero-slick__links {
+    position: absolute;
+    bottom: -1.5rem;
+    @media(max-width: 1650px) {
+        right: 13%;
+    }
+    @media(max-width: 1600px) {
+        right: 10%;
+    }
+    @media(max-width: 1500px) {
+        right: 9%;
+    }
+    @media(max-width: 1500px) {
+        right: 7%;
+    }
+    @media(max-width: 1380px) {
+        right: 5%;
+    }
+    @media(max-width: 1330px) {
+        right: 9%;
+    }
+    @media(max-width: 1260px) {
+        right: 7%;
+        bottom: -2.3rem;
+    }
+    @media(max-width: 1190px) {
+        right: 8%;
+    }
+    @media(max-width: 1090px) {
+        right: 9%;
+    }
+    .c-hero-slick__link-group {
+        flex-direction: column;
+        background-color: var(--color-purple);
+        padding: 0 150px 25px 30px;
+        @media(max-width: 1650px) {
+            padding: 0 60px 25px 30px;
+        }
+        @media(max-width: 1330px) {
+            padding: 0 20px 25px 30px;
+        }
+        @media(max-width: 1090px) {
+            padding: 0 10px 25px 30px;
+        }
+        &:last-child {
+            padding-right: 30px;
+        }
+        .c-hero {
+            bottom: 1rem;
+        }
+        a {
+            font-size: 1.375rem;
+            @media(max-width: 1190px) {
+                font-size: 1.125rem;
+            }
+            @media(max-width: 1090px) {
+                font-size: 1rem;
+            }
+            svg {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+
+/*** Slider2 Section ***/ 
+.c-slick-slider2 {
+    .c-slider2__img {
+        margin-right: 1.875rem;
+    }
+}
+
+.c-slick-slider2__arrow {
+    margin-top: 3.125rem;
+    .prevArrow2 {
+        margin-right: 10px;
+    }
+}
+
+
+/*** Slider3 Section ***/ 
+.c-slick-slider3__container {
+    margin-left: 32px;
+    &:first-of-type {
+        margin-left: 20px;
+    }
+    .slide-img {
+        img {
+            width: 100%;
+        }
+    }
+    .van-logo {
+        position: absolute;
+        top: 67px;
+        left: 30px;
+    }
+}
+
+.c-slick-slider3__content {
+    height: 190px;
+    padding: 30px;
+    background-color: var(--color-white);
+    h3 {
+        margin-bottom: 5px;
+    }
+    p {
+        line-height: 28px;
+        font-size: 17px;
+    }
+    a {
+        position: absolute;
+        bottom: 1.8rem;
+        svg {
+            margin-left: 10px;
+        }
+    }
+}
+
+.c-slick-slider3__arrow {
+    .prevArrow3,
+    .nextArrow3 {
+        position: absolute;
+        top: -22.5rem;
+        svg {
+            background-color: var(--color-white);
+            &:hover {
+                background-color: var(--color-purple);
+                color: var(--color-white);
+            }
+        }
+    }
+    .prevArrow3 {  
+        left: 31%;
+        @media(max-width: 1400px) {
+            left: 2.5%;
+        }
+    }
+    .nextArrow3 {
+        right: 30.5%;
+        @media(max-width: 1400px) {
+            right: 2%;
+        }
+    }
+}

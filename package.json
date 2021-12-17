@@ -1,0 +1,21 @@
+{
+  "name": "asd",
+  "version": "1.0.0",
+  "description": "asd",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/main.scss css/style.css --watch",
+    "svgSprite": "svg-sprite-generate -d icons -o sprite.svg"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.8",
+    "svg-sprite-generator": "0.0.7"
+  },
+  "dependencies": {
+    "animate-on-scroll": "^1.2.5",
+    "aos": "^2.3.4",
+    "slick-carousel": "^1.8.1"
+  }
+}

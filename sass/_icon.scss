@@ -1,0 +1,53 @@
+.icon {
+    display: inline-block;
+    fill: currentColor;
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon--sm {
+    width: 1rem;
+    height: 1rem;
+}
+
+.icon--md {
+    width: 1.38rem;
+    height: 1.38rem;
+}
+
+.icon--lg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon--white {
+    color: var(--color-white);
+}
+
+.icon--white-border {
+    border: 1px solid var(--color-white);
+    padding: 9px;
+}
+
+.icon--white-bkg {
+    background-color: var(--color-white);
+}
+
+.icon--purple {
+    color: var(--color-purple);
+    
+}
+
+.icon--purple-border {
+    border: 1px solid var(--color-purple);
+    padding: 9px;
+}
+
+.icon--purple-border-2 {
+    border: 2px solid var(--color-purple);
+    padding: 19px;
+}
+
+.icon--border {
+    border-radius: 50%;
+}

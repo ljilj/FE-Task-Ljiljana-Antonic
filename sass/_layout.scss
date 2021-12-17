@@ -1,0 +1,201 @@
+/*** Header ***/
+.c-header-section {
+    height: 91px;
+    @media(max-width: 1400px) {
+        height: 200px;
+    }
+} 
+
+.c-nav__header {
+    @media(max-width: 1400px) {
+        flex-direction: column;
+    }
+}
+
+.c-nav {
+    margin: 2.1rem 0;
+    @media(max-width: 1400px) {
+        justify-content: space-between;
+    }
+    .c-nav__logo {
+        margin: 5px 112px 0 0;
+        @media(max-width: 1400px) {
+            margin-top: 60px;
+        }
+    }
+    .c-nav__links {
+        a {
+            margin-right: 50px;
+            padding: 2.05rem 0;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                color: #697ddf;
+            }
+        }
+    }
+}
+
+.c-header__icons {
+    @media(max-width: 1400px) {
+        justify-content: flex-end;
+        margin-top: -60px;
+    }
+    .c-header-icons__group {
+        margin: 1.8rem 0;
+        svg {
+            margin-right: 30px;
+        }
+        .c-user-icon {
+            margin-right: 10px;
+            background-color: var(--color-purple);
+            padding: 11px;
+            border-radius: 50%;
+        }
+    }
+    .c-menu-icon {
+        margin: 2.5rem 3.125rem 0 0;
+        width: 27px;
+        height: 15px;
+    }
+    button {
+        font-size: 1.125rem;
+        height: 91px;
+    }
+}
+
+
+/*** Footer ***/
+footer {
+    background-color: var(--color-h-black);
+}
+
+.c-footer__row {
+    padding: 80px 0 82px;
+    @media (max-width: 1450px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.c-footer__col {
+    @media (max-width: 1450px) {
+        text-align: center;
+    }
+    &:last-of-type {
+        @media (max-width: 1450px) {
+            flex-direction: column;
+        }
+    }
+    .c-footer__logo {
+        width: 240px;
+        height: 19px;
+        margin-bottom: 3.125rem;
+    }
+    .c-footer__links {
+        flex-direction: column;
+        a {
+            padding-bottom: 0.625rem;
+            font-size: 0.875rem;
+            &:hover {
+                color: var(--color-white);
+            }
+        }
+    }
+    .c-footer__address {
+        margin-bottom: 20px;
+        @media (max-width: 1450px) {
+            flex-direction: column;
+            text-align: center;
+        }
+        .address__logo {
+            margin: 7px 15px 0 0;
+        }
+        span {
+            font-size: 0.9375rem;
+        }
+    }
+    .c-footer__title {
+        margin-bottom: 1.875rem;
+    }
+    .title-margin {
+        margin-top: 4.5rem;
+    }
+    .c-social-icons__container {
+        h4 {
+            margin: 50px 0 10px;
+        }
+        svg:hover {
+            background-color: var(--color-purple);
+        }
+    }
+    .c-footer__box {
+        flex-direction: column;
+        padding: 29px 28px;
+        margin-top: 3.2rem;
+        transition: transform .2s;
+        background-color: var(--color-purple);
+        @media (max-width: 1450px) {
+            text-align: left;
+        }
+        &:first-of-type {
+            margin-right: 1.875rem;
+            @media (max-width: 1450px) {
+                margin-right: 0;
+            }
+        }
+        &:hover {
+            transform: scale(1.02);
+        }
+        h4, img {
+            margin-bottom: 1.875rem;
+        }
+        p {
+            margin-bottom: 1.25rem;
+        }
+        button {
+            padding: 14px 86px 13px 85px;
+            color: var(--color-purple);
+            &:hover {
+                background-color: var(--color-purple);
+                color: var(--color-white);
+                border: 1px solid var(--color-white);
+            }
+        }
+    }
+}
+
+.c-footer__bottom {
+    border-top: 2px solid var(--color-white);
+}
+.c-footer-bottom__box {
+    padding: 20px 0;
+    @media (max-width: 1199px) {
+        flex-direction: column; 
+    }
+    p, a {
+        font-size: 0.75rem;
+    }
+    p {
+        @media (max-width: 1199px) {
+            order: 2;
+        }
+    }
+    .c-footer-bottom__links {
+        @media (max-width: 1199px) {
+            order: 1;
+            margin-bottom: 1rem;
+        }
+        a {
+            margin-right: 17px;
+            &:last-of-type {
+                margin-right: 0;
+            }
+            &:hover {
+                color: var(--color-white);
+            }
+        }
+    }
+}
+
